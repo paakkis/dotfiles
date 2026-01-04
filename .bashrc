@@ -119,3 +119,7 @@ fi
 
 alias proj='cd /mnt/c/Users/Juuso\ Paakkunainen/Documents/Projects'
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
