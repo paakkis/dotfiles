@@ -78,7 +78,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias ls='ls --color=auto'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
-
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
@@ -120,6 +119,11 @@ fi
 alias proj='cd /mnt/c/Users/Juuso\ Paakkunainen/Documents/Projects'
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
+<<<<<<< HEAD
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+=======
+# alias to grep search from history
+alias hgrep='history | grep --color=auto '
+>>>>>>> 000d348 (tmux scrolling =))
