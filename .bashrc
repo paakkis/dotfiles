@@ -119,11 +119,9 @@ fi
 alias proj='cd /mnt/c/Users/Juuso\ Paakkunainen/Documents/Projects'
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-<<<<<<< HEAD
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-=======
 # alias to grep search from history
 alias hgrep='history | grep --color=auto '
->>>>>>> 000d348 (tmux scrolling =))
+export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/share/pkgconfig
